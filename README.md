@@ -33,4 +33,10 @@ The third section compiles the data files into a single file that can be then ru
 
 ## Instructions on using the code
 1. Before running the code, we manually divided up the subject groups into two folders: one with data from the Parkinson's patients labeled 'Parkinsons' and one with data from the control subjects labeled 'Control'. You may need to manually divide up the files from the data set into files with these exact folder names. Add these folders to your code's path in Matlab. 
-2. 
+2. Run the full code.
+3. Go to Matlab's Classification Learner tool to train your model and generate a decision tree, model, and ROC Curve to analyze the performance. 
+4. A confusion chart will be made from the code that can also help analyze performance of the classification algorithm, along with values for specificity, accuracy, precision, and sensitivity. 
+
+### Citations 
+* Data set: 
+Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220
