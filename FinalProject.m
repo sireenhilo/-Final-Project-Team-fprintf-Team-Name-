@@ -141,10 +141,10 @@ save('alldata.mat', 'all_test') %saves the new testing data file
 %The data is separated into either positive(1â€™s) or negatives(0â€™s)
 % This is then compared to the actual files and the comparison is put into the confusion chart
 
-load('models.mat', 'trainedModelfgsvm') % loads the training model created by the matlab classifier tool 
+load('modelscode.mat', 'trainedModelfgsvmcode') % loads the training model created by the matlab classifier tool 
 load('alltest.mat') % loads all the testing data 
 
-pred = trainedModelfgsvm.predictFcn(all_test); %function to create actual labels by running testing data
+pred = trainedModelfgsvmcode.predictFcn(all_test); %function to create actual labels by running testing data
 %through the training model
 
 %this section finds out whether each patient is control or parkinsons since the labels were for 
