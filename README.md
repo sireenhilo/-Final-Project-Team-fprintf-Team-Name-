@@ -27,7 +27,7 @@ The data set we used is from a 2008 study that contains measures of gait from su
 ## Breaking down sections of the code
 Our code is separated into 4 sections, and can be run in individual sections or all together if need be.
 * First section:
-The first section of our code is optional. It generates time vs Force graphs for the two subject groups in order to allow us to visually analyze the differences in the data before training our algorithm
+The first section of our code is optional. It generates time vs Force graphs for the two subject groups in order to allow us to visually analyze the differences in the data before training our algorithm. The files used in this section are GaCo01_01 and GaCo02_01 which are included in this repository. 
 * Second section:
 The second section is also optional. It Fourier Transforms our data into the frequency domain. We did this as another way to visually inspect our data in order to better understand the differences between the two data sets before using machine learning. 
 * Third Section:
@@ -36,7 +36,7 @@ The third section compiles the data files into a single file that can be then ru
 The last part generates the confusion chart, which helps analyze how well our model classified the data files based on if they showed signs of Parkinson's or not. 
 
 ## Instructions on using the code; Please read through thoroughly before running anything.
-1. Before running the code, we divided up the subject groups into two training folders: one with data from the Parkinson's patients labeled 'Parkinsons' and one with data from the control subjects labeled 'Control'. You may need to manually divide up the files from the data set into files with these exact folder names. This step is important because by dividing up the subject types our algorithm will be able to learn how to differentiate differences between the Parkinson's and control files for when their classification is unknown. by A third folder was created with files from both subject groups for testing called 'Testing'. Around 75% of the available data files should be used for the two training folders and 25% for training. Add these three folders to your code's path in Matlab. 
+1. Before running the code, we divided up the subject groups into two training folders: one with data from the Parkinson's patients labeled 'Parkinsons' and one with data from the control subjects labeled 'Control'. We have included these folders in this repository, but you could also manually divide up the files from the data set into files with these exact folder names. This step is important because by dividing up the subject types our algorithm will be able to learn how to differentiate differences between the Parkinson's and control files for when their classification is unknown. by A third folder was created with files from both subject groups for testing called 'Testing' (also in this repository). Around 75% of the available data files should be used for the two training folders and 25% for training. Add these three folders to your code's path in Matlab. 
 2. Run the full code.
 3. Go to Matlab's Classification Learner tool to train the algorithm and generate a decision tree, training model, and ROC Curve to analyze the performance. 
 4. A confusion chart will be made from the code that can also help analyze performance of the classification algorithm, along with values for specificity, accuracy, precision, and sensitivity. 
