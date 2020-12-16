@@ -32,7 +32,7 @@ The first section of our code is optional. It generates time vs Force graphs for
 The second section is also optional. It Fourier Transforms our data into the frequency domain. We did this as another way to visually inspect our data in order to better understand the differences between the two data sets before using machine learning. 
 * Third Section:
 The third section compiles the data files into 2 files that can be then run through Matlab's Classification Learner App and the training model. 
-* Fourth Section
+* Fourth Section:
 The last part generates the confusion chart, which helps analyze how well our model classified the data files based on if they showed signs of Parkinson's or not. Additionally, it creates the actual labels and predicted labels by running the training model. Other metrics are calculated to help determine how well the training model works.
 
 ## Instructions on using the code; Please read through thoroughly before running anything.
