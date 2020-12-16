@@ -27,7 +27,7 @@ The data set we used is from a 2008 study that contains measures of gait from su
 ## Breaking down sections of the code
 Our code is separated into 4 sections, and can be run in individual sections or all together if need be.
 * First section:
-The first section of our code is optional. It generates time vs Force graphs for the two subject groups in order to allow us to visually analyze the differences in the data before training our algorithm. The files used in this section are GaCo01_01 and GaCo02_01 which are included in this repository. 
+The first section of our code is optional. It generates time vs Force graphs for the two subject groups in order to allow us to visually analyze the differences in the data before training our algorithm. The files used in this section are GaCo01_01.txt and GaCo06_01.txt which are included in this repository. 
 * Second section:
 The second section is also optional. It Fourier Transforms our data into the frequency domain. We did this as another way to visually inspect our data in order to better understand the differences between the two data sets before using machine learning. 
 * Third Section:
