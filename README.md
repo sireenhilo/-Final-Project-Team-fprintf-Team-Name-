@@ -18,9 +18,9 @@ The data set we used is from a 2008 study that contains measures of gait from su
 * Column 19: Total force in Newtons (N) on right foot
 
 #### Relevant Data Set Links
-* [Link to data set information page] (https://physionet.org/content/gaitpdb/1.0.0/)
-* [Link to data set ZIP] (https://physionet.org/static/published-projects/gaitpdb/gait-in-parkinsons-disease-1.0.0.zip)
-* [Link to file describing demographics of data set] (https://physionet.org/content/gaitpdb/1.0.0/demographics.xls)
+[Link to data set information page] (https://physionet.org/content/gaitpdb/1.0.0/ "Link to data set ZIP")
+[Link to data set ZIP] (https://physionet.org/static/published-projects/gaitpdb/gait-in-parkinsons-disease-1.0.0.zip)
+[Link to file describing demographics of data set] (https://physionet.org/content/gaitpdb/1.0.0/demographics.xls)
 
 ## Breaking down sections of the code
 Our code is separated into 4 sections, and can be run in individual sections or all together if need be.
